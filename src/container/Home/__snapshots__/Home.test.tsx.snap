@@ -5,29 +5,58 @@ exports[`HomePage Container Snap Test render() renders the component 1`] = `
   className="home-page safe-area"
 >
   <div
-    className="container-fluid"
+    className="home-content"
   >
+    <h1>
+      Memoization Playground
+    </h1>
+    <p>
+      Counter: 
+      0
+    </p>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Render Application
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Change Color Parents
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      SetLoading
+    </button>
     <div
-      className="row"
+      className="container"
     >
       <div
-        className="col-lg-12"
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": "200px",
+            "marginTop": "16px",
+            "width": "100%",
+          }
+        }
+      />
+      <button
+        onClick={[Function]}
+        type="button"
       >
-        <img
-          alt="react-logo"
-          className="rotate"
-          src="react.svg"
-        />
-        <h1>
-          React Boilerplate
-        </h1>
-        <p>
-          Project Template with the latest react hook, simple clean and no vulnerability package
-        </p>
-        <small>
-          React Template by Thomi Jasir
-        </small>
-      </div>
+        Change Color Black
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Set Loading Child
+      </button>
     </div>
   </div>
 </div>
